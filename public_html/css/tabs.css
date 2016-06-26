@@ -1,0 +1,176 @@
+div.tabs {
+float:left;
+width:100%;
+line-height:normal;
+margin-bottom:-1px;
+font-size:12px;
+}
+
+div.tabs ul {
+margin:0;
+padding:10px 0px 0;
+list-style:none;
+}
+div.tabs li {
+float:left;
+margin:0;
+padding:0px;
+border-bottom:1px solid #429E18;
+/* Show the user that they can click on the left side of the tab. */
+cursor: pointer;
+margin-right:10px;
+}
+div.tabs a{
+float:left;
+display:block;
+background:url(../images/hover1.gif) repeat-x left bottom;
+padding:6px 15px;
+text-decoration:none;
+font-family:arial;
+font-size:14px;
+font-weight:bold;
+color:#ffffff;
+
+/* We don't want the text in the tabs to wrap. */
+white-space: nowrap;
+}
+div.tabs > ul a {width:auto;}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+div.tabs a {float:none;}
+
+body.tabs div.tabs li.selected {
+background:url(../images/active_bg.gif) repeat-x left top;
+border-top:1px solid #0;
+border-left:1px solid #0;
+border-right:1px solid #0;
+border-bottom:0px solid #C1D4B9;
+color:#6B6D6E;
+}
+
+body.tabs div.tabs li.selected a, body.tabs div.tabs li.selected a:link, body.tabs div.tabs li.selected a:active, body.tabs div.tabs li.selected a:visited {
+background:url(../images/active_bg.gif) repeat-x left top;
+border-top:1px solid #C1D4B9;
+border-left:1px solid #C1D4B9;
+border-right:1px solid #C1D4B9;
+border-bottom:0px solid #C1D4B9;
+color:#6B6D6E;
+}
+
+
+.bgarea{
+width:929px;
+float:left;
+clear: both;
+background:#ffffff url(../images/history_bg.gif) repeat-x left bottom;
+border:1px solid #D8EACE;
+font-size:14px;
+padding:10px;
+float:left;
+}
+
+/* tab body */
+div.tabBody {
+margin:0px;
+padding:0px;
+}
+/* IE only nonsense */
+* html div.tabBody {
+
+}
+/* Make the minimum height of an embedded tab less than the normal tab. */
+div.tabBody div.tabBody {
+
+}
+/* IE only nonsense */
+* html div.tabBody div.tabBody {
+}
+/* Make the minimum height of an embedded tab embedded in a tab less than the embedded tab. */
+div.tabBody div.tabBody div.tabBody {
+}
+/* IE only nonsense */
+* html div.tabBody div.tabBody div.tabBody {
+height:90px;
+}
+/* use this if javascript is turned off */
+div.tabItem {
+margin:0;
+padding:8px;
+}
+
+div.tabItem h1{
+margin:0px;
+padding:0px 0px 8px 0px;
+font-family:Trebuchet MS;
+font-size:18px;
+color:#297C02;
+border-bottom:3px solid #D8EACE;
+}
+div.tabItem h2{
+margin:0px;
+padding:10px 0 25px 0px;
+text-align:center;
+}
+div.tabItem h1 span{
+float:right;
+font-family:Trebuchet MS;
+font-size:12px;
+color:#297C02;
+
+}
+
+div.tabItem p{
+margin:0px;
+padding:16px 0 0 0px;
+text-align:justify
+}
+div.tabItem p a{
+text-decoration:underline;
+color:#48A120;
+font-weight:bold;
+}
+div.tabItem p a:hover{
+text-decoration:none;
+color:#858787;
+}
+div.tabItem p.spa{
+width:777px;
+float:right;
+margin:0px;
+padding:15px 0 0 0px;
+text-align:justify
+}
+
+.tabItem img{
+border:6px solid #E4F1DD;
+margin:15px 0 0 0;
+}
+
+body.tabs div.tabBody div.tabItem {
+border-width: 0;
+margin: 0;
+padding: 0;
+display: none;
+}
+body.tabs div.tabBody div.selected { display: block; }
+
+div.tabItem p.vedio{
+width:640px;
+float:left;
+margin-top:50px;
+margin-left:140px;
+font-size:18px;
+}
+div.tabItem p.outlet{
+width:640px;
+float:left;
+margin-top:50px;
+margin-left:30px;
+font-size:18px;
+}
+div.tabItem p.eyecenter{
+width:640px;
+float:left;
+font-size:18px;
+margin-top:20px;
+padding:20px 0px;
+}

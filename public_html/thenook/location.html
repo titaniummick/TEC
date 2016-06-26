@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>THE NooK:Location</title>
+    <meta http-equiv="content-type" content="text/html;charset-utf-8" />
+    <link href="css/images/thenook.ico" rel="icon" type="image/x-icon" />
+    <link rel="shortcut icon" href="css/images/thenook.ico" type="image/x-icon" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAUNmukPZdICwgsh_Pbf2H8LmERXx2Y6pI&sensor=false&&language=en">
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="body">
+            <div class="body-top">
+            </div>
+            <div class="body-repeat">
+                <div class="header">
+                    <div class="bar-language">
+                        <a href="#" class="active">EN</a><a href="#">TH</a>
+                    </div>
+                </div>
+                <div class="nav-bar">
+                    <div class="bar-top">
+                    </div>
+                    <div class="nav-bar-container">
+                        <ul>
+                             <li><a href="home.html">Home</a></li>
+                            <li><a href="Accommodation.html">Accommodation</a></li>
+                            <li><a href="location.html" class="active">Location</a></li>
+                            <li><a href="FacilitiesAndServices.html">Facilities & Service</a></li>
+                            <li><a href="#SpaicialOffers">Special offers</a></li>
+                            <li><a href="#PhotoGallary">Photo Gallery</a></li>
+                            <li><a href="#Shopping">Shopping & Activities</a></li>
+                            <li><a href="#FAQ">FAQ</a></li>
+                            <li><a href="#ContactUs">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="bar-bottom">
+                    </div>
+                </div>
+                <div class="main">
+                    <div id="map_canvas" style="width: 970px; height: 300px;">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="section-location">
+                        <div class="top">
+                        </div>
+                        <div class="repeat">
+                            <div id="locationMap">
+                                <h4>
+                                    Location & Map
+                                </h4>
+                                <p>
+                                    <span>Centrally located THE Nook is easily accessible from all means of transportation,
+                                        from Bangkok Suvarnabhumi international airport via taxi or the airport link and
+                                        Bangkok Don Muang domestic airport via taxi through the express way.</span>
+                                </p>
+                                <p>
+                                    <span>Located in the heart of Pratunam THE NooK is near numerous facilities available
+                                        right at your doorstep, most areas of interest (please go to our links) are within
+                                        walking distant and both taxis and “Tuk Tuks” (Thailand three wheel taxi) are available
+                                        if you wish to venture further afield.</span>
+                                </p>
+                            </div>
+                            <div id="usefulInformation">
+                                <h4>
+                                    Useful Information
+                                </h4>
+                                <p>
+                                    <span class="info">Distance to City Center</span><span class="number">00</span><span
+                                        class="unit">km</span>
+                                </p>
+                                <p>
+                                    <span class="info">Distance to Suvarnabhumi Airport by road</span><span class="number">30</span><span
+                                        class="unit">km</span>
+                                </p>
+                                <p>
+                                    <span class="info">Time to Suvarnabhumi Airport by car</span><span class="number">1.5</span><span
+                                        class="unit">hr</span>
+                                </p>
+                                <p>
+                                    <span class="info">Time to Suvarnabhumi Airport by airport link</span><span class="number">30</span><span
+                                        class="unit">mins</span>
+                                </p>
+                                <p>
+                                    <span class="info">Distance to Don Muang Airport by car</span><span class="number">20</span><span
+                                        class="unit">km</span>
+                                </p>
+                                <p>
+                                    <span class="info">Time to Don Muang Airport by car</span><span class="number">1</span><span
+                                        class="unit">hr</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                        </div>
+                    </div>
+                    <div class="section-pratunam">
+                        <div class="top">
+                        </div>
+                        <div class="repeat">
+                            <h4>
+                                Located in the heart of Pratunam
+                            </h4>
+                            <div id="gallery" class="gallery">
+                                <div class="row-space">
+                                    <div class="col space">
+                                        <img id="imgBts" src="images/location/1_bts.png" alt="" />
+                                        <div class="desc">
+                                            BTS sky train<br />
+                                            Ratchathewee</div>
+                                    </div>
+                                    <div class="col space">
+                                        <img id="imgCentralChidlom" src="images/location/2_central%20chidlom.png" alt="" />
+                                        <div class="desc">
+                                            Central Chidlom<br />
+                                            department store
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <img id="imgCentralEmbrassy" src="images/location/3_central%20embassy.png" alt="" />
+                                        <div class="desc">
+                                            Central Embassy<br />
+                                            shopping complex
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-space">
+                                    <div class="col space">
+                                        <img id="imgErawanShrine" src="images/location/5_erawan%20shrine.png" alt="" />
+                                        <div class="desc">
+                                            Erawan shrine
+                                        </div>
+                                    </div>
+                                    <div class="col space">
+                                        <img id="imgCentralWorld" src="images/location/4_central%20world.png" alt="" />
+                                        <div class="desc">
+                                            Central World<br />
+                                            plaza
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <img id="imgPlatinum" src="images/location/6_platinum.png" alt="" />
+                                        <div class="desc">
+                                            The Platinum<br />
+                                            Fashion Mall
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col space">
+                                        <img id="imgPratunam" src="images/location/7_pratunum%20clothing%20market.png" alt="" />
+                                        <div class="desc">
+                                            Pratunam<br />
+                                            clothing market
+                                        </div>
+                                    </div>
+                                    <div class="col space">
+                                        <img id="imgSiamParagon" src="images/location/8_siam%20paragon.png" alt="" />
+                                        <div class="desc">
+                                            Siam Paragon
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <img id="imgPratunamBoatTaxi" src="images/location/9_pratunum%20taxi%20boat.png"
+                                            alt="" />
+                                        <div class="desc">
+                                            Pratunam<br />
+                                            taxi boat Pier
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body-bottom">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="bar-top">
+            </div>
+            <div class="footer-body">
+            </div>
+            <div class="bar-bottom">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#gallery").find("img").hover(function () {
+                $("#gallery").data("lastImageId", $(this).attr("id"));
+                $(this).parent().find(".desc").show();
+                $(this).addClass("hover");
+            }, function () {
+                $(this).removeClass("hover");
+                $(this).parent().find(".desc").hide();
+            });
+
+            $("#gallery").find(".desc").hover(function () {
+                $(this).show();
+                $("#" + $("#gallery").data("lastImageId")).addClass("hover");
+            }, function () {
+                $(this).hide();
+                $("#" + $("#gallery").data("lastImageId")).removeClass("hover");
+            });
+
+            loadMap();
+        });
+
+        function loadMap() {
+            var ggMap = new Object(google.maps);
+            var theNookPosition = new ggMap.LatLng(13.755316718525329, 100.5366189032793);
+            var mapOptions = {
+                center: theNookPosition,
+                zoom: 15,
+                mapTypeId: ggMap.MapTypeId.ROADMAP,
+                mapTypeControl: false,
+                //                mapTypeControlOptions: { style: ggMap.MapTypeControlStyle.DEFAULT },
+                zoomControlOptions: {
+                    style: ggMap.ZoomControlStyle.SMALL,
+                    position: ggMap.ControlPosition.LEFT_TOP
+                },
+                navigationControl: false,
+                streetViewControl: false
+            };
+            var map = new ggMap.Map(document.getElementById("map_canvas"), mapOptions);
+            var marker = new ggMap.Marker({
+                position: theNookPosition,
+                map: map,
+                title: "THE NooK",
+                icon: "css/images/marker.png"
+            });
+            ggMap.event.addListener(marker, 'click', function () {
+                map.setCenter(theNookPosition);
+                map.setZoom(15);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+#hero-fader{height:278px; margin:0 0 0px 0; overflow:hidden; position:relative;}
+#hero-fader .controls{position:absolute; top:227px; left:91%; z-index:10; font-size:44px; line-height:60px;}
+#hero-fader .controls a{text-decoration:none;color:#888888; padding:0 1px;}
+#hero-fader .controls a.first{padding-left:0px;}
+#hero-fader .controls a.last{padding-right:0px;}
+#hero-fader .controls a.active{color:#308011;}
+#hero-fader .fader-page{position:absolute;opacity:0;display:none;top:0;left:0;width:100%;height:100%;z-index:5;}
+#hero-fader #hero-fader_social{position:relative;height:278px;}
+#hero-fader #hero-fader_social a{position:absolute;left:0;top:0;display:block;width:100%;height:100%;}
